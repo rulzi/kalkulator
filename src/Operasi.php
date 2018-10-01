@@ -46,9 +46,14 @@ class Operasi
 	 	return $hasil;
 	}
 	
-	public function akar(float $a)
+	public function akar_kuadrat(float $a)
 	{
 		return sqrt($a);
+	}
+
+	public function akar(float $a, float $b)
+	{
+		return pow($a, 1/$b);
 	}
 
 }
