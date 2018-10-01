@@ -54,6 +54,22 @@ $kalkulator = new \Rulzi\Kalkulator\Operasi();
 $kalkulator->bagi(8, 4);
 ```
 
+### 2.5 Kuadrat
+
+```php
+$kalkulator = new \Rulzi\Kalkulator\Operasi();
+
+$kalkulator->kuadrat(8);
+```
+
+### 2.6 Bagi
+
+```php
+$kalkulator = new \Rulzi\Kalkulator\Operasi();
+
+$kalkulator->kubik(8);
+```
+
 ## Contact
 
 Please report any bugs to productive.afandi@gmail.com.
