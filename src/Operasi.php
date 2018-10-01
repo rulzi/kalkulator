@@ -52,4 +52,11 @@ class Operasi
 
 		return $hasil;
 	}
+
+	public function diameterLingkaran(int $kelilingLingkaran)
+	{
+		$hasil = $kelilingLingkaran / 3.14;
+
+		return $hasil;
+	}
 }
