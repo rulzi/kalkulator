@@ -46,7 +46,22 @@ class Operasi
 	 	return $hasil;
 	}
 
-	public function phi(int $a)
+	public function akar_kuadrat(float $a)
+	{
+		return sqrt($a);
+	}
+
+	public function akar(float $a, float $b)
+	{
+		return pow($a, 1/$b);
+	}
+
+	public function pangkat(float $a, float $b)
+	{
+		return pow($a, $b);
+	}
+  
+  public function phi(int $a)
 	{
 		$hasil = (22 * $a) / 7;
 

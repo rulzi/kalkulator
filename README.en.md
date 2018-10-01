@@ -1,6 +1,6 @@
 # Kalkulator
 
-Package kalkulator sederhana
+A simple calculator package
 
 ## 1. Installation
 
@@ -20,7 +20,7 @@ and run `composer install` on your terminal.
 
 ## 2. How to Use
 
-### 2.1 Tambah
+### 2.1 Plus
 
 ```php
 
@@ -30,7 +30,7 @@ $kalkulator->tambah(8, 4);
 
 ```
 
-### 2.2 Kurang
+### 2.2 Substraction
 
 ```php
 $kalkulator = new \Rulzi\Kalkulator\Operasi();
@@ -38,7 +38,7 @@ $kalkulator = new \Rulzi\Kalkulator\Operasi();
 $kalkulator->kurang(8, 4);
 ```
 
-### 2.3 Kali
+### 2.3 Multiplication
 
 ```php
 $kalkulator = new \Rulzi\Kalkulator\Operasi();
@@ -46,7 +46,7 @@ $kalkulator = new \Rulzi\Kalkulator\Operasi();
 $kalkulator->kali(8, 4);
 ```
 
-### 2.4 Bagi
+### 2.4 Division
 
 ```php
 $kalkulator = new \Rulzi\Kalkulator\Operasi();
@@ -54,7 +54,7 @@ $kalkulator = new \Rulzi\Kalkulator\Operasi();
 $kalkulator->bagi(8, 4);
 ```
 
-### 2.5 Kuadrat
+### 2.5 Square
 
 ```php
 $kalkulator = new \Rulzi\Kalkulator\Operasi();
@@ -62,7 +62,7 @@ $kalkulator = new \Rulzi\Kalkulator\Operasi();
 $kalkulator->kuadrat(8);
 ```
 
-### 2.6 Kubik
+### 2.6 Pow 2
 
 ```php
 $kalkulator = new \Rulzi\Kalkulator\Operasi();
@@ -78,7 +78,7 @@ $kalkulator = new \Rulzi\Kalkulator\Operasi();
 $kalkulator->akar_kuadrat(8, 7);
 ```
 
-### 2.8 Akar
+### 2.8 Root
 
 ```php
 $kalkulator = new \Rulzi\Kalkulator\Operasi();
@@ -87,7 +87,7 @@ $kalkulator->akar(8);
 ```
 
 
-### 2.9 Pangkat
+### 2.9 Pow
 
 ```php
 $kalkulator = new \Rulzi\Kalkulator\Operasi();
@@ -95,13 +95,6 @@ $kalkulator = new \Rulzi\Kalkulator\Operasi();
 $kalkulator->pangkat(8, 2);
 ```
 
-### 2.10 Phi
-
-```php
-$kalkulator = new \Rulzi\Kalkulator\Operasi();
-
-$kalkulator->phi(8);
-```
 
 ## Contact
 
