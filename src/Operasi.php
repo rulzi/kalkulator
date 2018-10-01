@@ -36,6 +36,13 @@ class Operasi
 	{
 		$hasil = $a * $a;
 
-		return $a;
+		return $hasil;
+	}
+
+	public function kubik(int $a)
+	{
+		$hasil = $a * $a * $a;
+
+	 	return $hasil;
 	}
 }
