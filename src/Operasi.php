@@ -45,4 +45,10 @@ class Operasi
 
 	 	return $hasil;
 	}
+	
+	public function akar(float $a)
+	{
+		return sqrt($a);
+	}
+
 }
