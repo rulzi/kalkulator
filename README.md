@@ -62,13 +62,39 @@ $kalkulator = new \Rulzi\Kalkulator\Operasi();
 $kalkulator->kuadrat(8);
 ```
 
-### 2.6 Bagi
+### 2.6 Kubik
 
 ```php
 $kalkulator = new \Rulzi\Kalkulator\Operasi();
 
 $kalkulator->kubik(8);
 ```
+
+### 2.7 Akar Kuadrat
+
+```php
+$kalkulator = new \Rulzi\Kalkulator\Operasi();
+
+$kalkulator->akar_kuadrat(8, 7);
+```
+
+### 2.8 Akar
+
+```php
+$kalkulator = new \Rulzi\Kalkulator\Operasi();
+
+$kalkulator->akar(8);
+```
+
+
+### 2.9 Pangkat
+
+```php
+$kalkulator = new \Rulzi\Kalkulator\Operasi();
+
+$kalkulator->pangkat(8, 2);
+```
+
 
 ## Contact
 

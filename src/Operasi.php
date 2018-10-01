@@ -56,4 +56,9 @@ class Operasi
 		return pow($a, 1/$b);
 	}
 
+	public function pangkat(float $a, float $b)
+	{
+		return pow($a, $b);
+	}
+
 }
