@@ -45,7 +45,7 @@ class Operasi
 
 	 	return $hasil;
 	}
-	
+
 	public function akar_kuadrat(float $a)
 	{
 		return sqrt($a);
@@ -60,5 +60,11 @@ class Operasi
 	{
 		return pow($a, $b);
 	}
+  
+  public function phi(int $a)
+	{
+		$hasil = (22 * $a) / 7;
 
+		return $hasil;
+	}
 }

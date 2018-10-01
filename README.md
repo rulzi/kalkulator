@@ -95,6 +95,13 @@ $kalkulator = new \Rulzi\Kalkulator\Operasi();
 $kalkulator->pangkat(8, 2);
 ```
 
+### 2.10 Phi
+
+```php
+$kalkulator = new \Rulzi\Kalkulator\Operasi();
+
+$kalkulator->phi(8);
+```
 
 ## Contact
 
