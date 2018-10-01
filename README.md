@@ -70,6 +70,14 @@ $kalkulator = new \Rulzi\Kalkulator\Operasi();
 $kalkulator->kubik(8);
 ```
 
+### 2.7 Phi
+
+```php
+$kalkulator = new \Rulzi\Kalkulator\Operasi();
+
+$kalkulator->phi(8);
+```
+
 ## Contact
 
 Please report any bugs to productive.afandi@gmail.com.

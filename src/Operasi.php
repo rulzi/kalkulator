@@ -45,4 +45,11 @@ class Operasi
 
 	 	return $hasil;
 	}
+
+	public function phi(int $a)
+	{
+		$hasil = (22 * $a) / 7;
+
+		return $hasil;
+	}
 }
