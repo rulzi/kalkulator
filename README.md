@@ -119,6 +119,14 @@ $kalkulator = new \Rulzi\Kalkulator\Operasi();
 $kalkulator->luasPersegi(8, 2);
 ```
 
+### 2.13 Luas Lingkaran
+
+```php
+$kalkulator = new \Rulzi\Kalkulator\Operasi();
+
+$kalkulator->luasLingkaran(8);
+```
+
 ## Contact
 
 Please report any bugs to productive.afandi@gmail.com.

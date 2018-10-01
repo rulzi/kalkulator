@@ -75,9 +75,16 @@ class Operasi
 		return $hasil;
 	}
 
-	public function luasPersegi(float $a, float $b)
+	public function luasPersegi(float $lebar, float $panjang)
 	{
-		$hasil = $a * $b;
+		$hasil = $lebar * $panjang;
+
+		return $hasil;
+	}
+
+	public function luasLingkaran(float $diameter)
+	{
+		$hasil = 3.14 * $diameter;
 
 		return $hasil;
 	}
