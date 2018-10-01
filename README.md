@@ -111,6 +111,14 @@ $kalkulator = new \Rulzi\Kalkulator\Operasi();
 $kalkulator->diameterLingkaran(8);
 ```
 
+### 2.12 Luas Persegi
+
+```php
+$kalkulator = new \Rulzi\Kalkulator\Operasi();
+
+$kalkulator->luasPersegi(8, 2);
+```
+
 ## Contact
 
 Please report any bugs to productive.afandi@gmail.com.

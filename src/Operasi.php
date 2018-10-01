@@ -61,7 +61,7 @@ class Operasi
 		return pow($a, $b);
 	}
   
-  public function phi(int $a)
+  	public function phi(int $a)
 	{
 		$hasil = (22 * $a) / 7;
 
@@ -71,6 +71,13 @@ class Operasi
 	public function diameterLingkaran(int $kelilingLingkaran)
 	{
 		$hasil = $kelilingLingkaran / 3.14;
+
+		return $hasil;
+	}
+
+	public function luasPersegi(float $a, float $b)
+	{
+		$hasil = $a * $b;
 
 		return $hasil;
 	}
