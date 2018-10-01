@@ -31,4 +31,11 @@ class Operasi
 
 		return $hasil;
 	}
+
+	public function kuadrat(int $a)
+	{
+		$hasil = $a * $a;
+
+		return $a;
+	}
 }
