@@ -103,6 +103,14 @@ $kalkulator = new \Rulzi\Kalkulator\Operasi();
 $kalkulator->phi(8);
 ```
 
+### 2.11 Diameter Lingkaran 
+
+```php
+$kalkulator = new \Rulzi\Kalkulator\Operasi();
+
+$kalkulator->diameterLingkaran(8);
+```
+
 ## Contact
 
 Please report any bugs to productive.afandi@gmail.com.
